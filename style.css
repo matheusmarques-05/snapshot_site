@@ -10,10 +10,65 @@
 
 :root{
     --cor0: #B5B5B5;
-    --cor1: #717171;
-    --cor2: #353535;
+    --cor1: #919191;
+    --cor2: #696969;
+    --cor3: #404040;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Spline Sans", sans-serif;
     --fonte-snapshot: 'lemonmilk', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-color: var(--cor3);
+    min-height: 100px;
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 70%;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-snapshot);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+header > p{
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 8px;
+    text-align: right;
+}
+
+nav > a{
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor0);
 }
