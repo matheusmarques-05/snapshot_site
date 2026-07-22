@@ -96,8 +96,19 @@ main > h2{
 main > p{
     padding: 10px;
     font-size: 22px;
+    line-height: 1.4em;
     margin-left: 5em;
     margin-right: 5em;
+}
+
+main picture > p.menuimg{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 40%;
 }
 
 footer{
